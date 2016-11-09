@@ -8,6 +8,7 @@ Please fork this repo and issue a pull request.  You can then push code exercisi
 - Generate a dialog listing all of Laika's movies.  Provide 5 columns for each row: movie name, release date, domestic gross, movie poster icon, and a "camera" button.
 - Dialog's title should be _Laika Movies_
 - Should be able to sort list by Name and Release Date (click column header to sort)
+- Should be able to reorder the columns using drag/drop
 - Each row's "camera" button should create a simple camera rig in Maya.  Maya rig will be composed as follows:
   - cameraGroup (transform) with two children--cameraMover (transform) and camera (camera)
   - camera position and rotation should be controlled by cameraMover
@@ -15,7 +16,7 @@ Please fork this repo and issue a pull request.  You can then push code exercisi
   - camera should use the movie poster as an image plane
 
 __Bonus:__
-- Enable drag/drop so that dragging/dropping a row into the maya interface to create the camera rig for that row.
+- Enable drag/drop so that dragging/dropping a row into the maya interface will create the camera rig for that row.
 
 
 ## Requirements
