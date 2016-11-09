@@ -6,6 +6,7 @@ Code test for potential VFX Technical Directors
 Please fork this repo and issue a pull request.  You can then push code exercising the following tasks in a Maya environment. 
 
 - Generate a dialog listing all of Laika's movies.  Provide 5 columns for each row: movie name, release date, domestic gross, movie poster icon, and a "camera" button.
+- Provide a function named show_dialog() that will open the dialog
 - Dialog's title should be _Laika Movies_
 - Should be able to sort list by Name and Release Date (click column header to sort)
 - Should be able to reorder the columns using drag/drop
